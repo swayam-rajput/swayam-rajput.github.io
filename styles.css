@@ -1,0 +1,66 @@
+*{    
+    color-scheme: dark;
+    background-color:var(--bgcolor);  
+    background: transparent;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family:Futura Md BT;
+}
+:root{
+    --cursor:pointer;
+    --bgcolor : #221d23;
+}
+.center{
+    margin: 10px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    vertical-align: middle;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.logo{
+    color: #7bd2c4d2;
+    text-decoration: none;
+    font-family: Netflix Sans;
+    font-weight:300;
+    font-size: 32px;
+    cursor: var(--cursor);
+    padding: 0;
+    margin: 15px 0px;
+    transition: transform 0.3s;
+}
+.logo:hover{
+    transform: scale(1.10);
+    color: #8affdc;
+}
+.btn{
+    padding: 6px 18px;
+    margin: 5px 5px;
+    
+    width: fit-content;
+    border-radius: 25px;
+    font-size: medium;
+    cursor: var(--cursor);
+    border: 1px ridge white;
+    transition: transform 0.4s;   
+    
+}
+.btn:hover{
+    background-color: rgb(45, 44, 44);
+    border-color: rgb(45,44,44);
+    transform: scale(1.15);
+    /* color:#51f6dd; */
+}
+.timer{
+    font-size: 64px;
+    margin: 20px 0px;
+    /* box-sizing: border-box; */
+    transition: transform 0.15s;
+}
+.timer:hover{
+    transform: scale(1.05);
+    mix-blend-mode: exclusion;
+}
